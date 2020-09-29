@@ -33,7 +33,7 @@ else
 		((k++))
 	done
 	
-	for ((i=1;i<${length_imgs};i++))
+	for ((i=0;i<${length_imgs};i++))
 	do
 		left=${img_list[i]}
 		right=${label_list[i]}
